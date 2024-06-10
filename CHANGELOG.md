@@ -1,3 +1,14 @@
+# CREOOX: START
+This fork repository was created duo of missing ansible:2.17 which we need. Hopefully we could use back community version in near feature. 
+
+In meantime to create and public image
+
+  
+    docker compose build
+    docker login
+    docker push creoox/ansible:2.17-ubuntu-22.04
+
+# CREOOX: END
 # Changelog
 
 ## v5.0.2

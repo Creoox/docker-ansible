@@ -1,0 +1,11 @@
+services:
+  api:
+    image: creoox/ansible:2.17-ubuntu-22.04
+    build:
+      context: .
+      dockerfile: ./ansible-core/ubuntu2204/Dockerfile
+      args:
+        - ANSIBLE_CORE_VERSION=2.17.0
+        - ANSIBLE_VERSION=10.0.0
+        - ANSIBLE_LINT=6.22.2
+
